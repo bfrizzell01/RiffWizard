@@ -7,3 +7,40 @@ RiffWizard takes a different approach. Instead of making assumptions, it asks fo
 Disclaimer: This project is intended as a personal learning exercise in Reinforcement Learning (RL) algorithms, API operations, Music Information Retrieval (MIR), and front-end application development. It is not actively maintained for production use.
 
 RiffWizard is still in the early stages of development, so stay tuned for future updates!
+
+
+## Setting Up the Environment
+
+This project uses Conda to manage dependencies. To set up the environment, follow these steps:
+
+1. Ensure Conda is installed
+   If you don’t have Conda installed, download and install Miniconda (https://docs.conda.io/en/latest/miniconda.html) or Anaconda (https://www.anaconda.com/).
+
+2. Open a terminal in the project root
+   Make sure your terminal’s working directory is the root of this project (where environment.yml is located).
+
+3. Create the environment from environment.yml
+
+```bash
+   conda env create -f environment.yml
+```
+   This will create a Conda environment with all the dependencies specified in the YAML file.
+
+4. Activate the environment
+
+   conda activate <environment_name>
+
+   Replace <environment_name> with the name specified in the environment.yml file (usually listed at the top under name:).
+
+5. Verify installation
+
+   conda list
+
+   You should see all the packages listed in the environment.
+
+6. Optional: Update the environment
+   If the environment.yml file is updated in the future:
+
+   conda env update -f environment.yml --prune
+
+   The --prune flag removes packages no longer required.
