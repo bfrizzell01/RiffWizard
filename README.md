@@ -28,19 +28,25 @@ This project uses Conda to manage dependencies. To set up the environment, follo
 
 4. Activate the environment
 
+```bash
    conda activate <environment_name>
+```
 
    Replace <environment_name> with the name specified in the environment.yml file (usually listed at the top under name:).
 
 5. Verify installation
 
+```bash
    conda list
+```
 
    You should see all the packages listed in the environment.
 
 6. Optional: Update the environment
    If the environment.yml file is updated in the future:
 
+```bash
    conda env update -f environment.yml --prune
+```
 
    The --prune flag removes packages no longer required.
