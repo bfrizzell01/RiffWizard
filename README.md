@@ -13,13 +13,15 @@ RiffWizard is still in the early stages of development, so stay tuned for future
 
 This project uses Conda to manage dependencies. To set up the environment, follow these steps:
 
-1. Ensure Conda is installed
+### 1. Ensure Conda is installed
+
    If you don’t have Conda installed, download and install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/).
 
-2. Open a terminal in the project root
+### 2. Open a terminal in the project root
+
    Make sure your terminal’s working directory is the root of this project (where environment.yml is located).
 
-3. Create the environment from `environment.yml`
+### 3. Create the environment from `environment.yml`
 
 ```bash
    conda env create -f environment.yml
@@ -27,13 +29,13 @@ This project uses Conda to manage dependencies. To set up the environment, follo
 
    This will create a Conda environment with all the dependencies specified in the YAML file.
 
-4. Activate the environment
+### 4. Activate the environment
 
 ```bash
    conda activate riffwizard
 ```
 
-5. Verify installation
+### 5. Verify installation
 
 ```bash
    conda list
@@ -41,7 +43,8 @@ This project uses Conda to manage dependencies. To set up the environment, follo
 
    You should see all the packages listed in the environment.
 
-6. Optional: Update the environment
+### 6. Optional: Update the environment
+
    If the `environment.yml` file is updated in the future:
 
 ```bash
