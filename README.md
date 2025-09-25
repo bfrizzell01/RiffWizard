@@ -19,7 +19,7 @@ This project uses Conda to manage dependencies. To set up the environment, follo
 
 ### 2. Open a terminal in the project root
 
-   Make sure your terminal’s working directory is the root of this project (where environment.yml is located).
+   Make sure your terminal’s working directory is the root of this project (where `environment.yml` is located).
 
 ### 3. Create the environment from `environment.yml`
 
