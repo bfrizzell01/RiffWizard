@@ -30,10 +30,8 @@ This project uses Conda to manage dependencies. To set up the environment, follo
 4. Activate the environment
 
 ```bash
-   conda activate <environment_name>
+   conda activate riffwizard
 ```
-
-   Replace `<environment_name>` with the name specified in the `environment.yml` file (usually listed at the top under name:).
 
 5. Verify installation
 
